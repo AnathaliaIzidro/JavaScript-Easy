@@ -1,11 +1,11 @@
-/* Definindo as cores e variáveis para fácil modificação */
+
 :root {
-    --primary-color: #3B82F6;   /* Azul primário */
-    --secondary-color: #1E40AF; /* Azul escuro */
-    --background-color: #F3F4F6; /* Cinza claro */
-    --text-color: #111827;      /* Preto escuro */
-    --accent-color: #FBBF24;    /* Amarelo */
-    --button-hover-color: #2563EB; /* Azul mais escuro */
+    --primary-color: #3B82F6;  
+    --secondary-color: #1E40AF;
+    --background-color: #F3F4F6; 
+    --text-color: #111827;
+    --accent-color: #FBBF24;
+    --button-hover-color: #2563EB;
     --shadow-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -106,7 +106,6 @@ body {
     box-shadow: 0 2px 4px var(--shadow-color);
 }
 
-/* Responsividade para dispositivos menores */
 @media (max-width: 768px) {
     .desafios {
         grid-template-columns: repeat(2, 1fr);
